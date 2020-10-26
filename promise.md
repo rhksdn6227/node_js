@@ -2,7 +2,7 @@
 
 먼저 promise가 나온 이유는 아래 그림과 같은 콜백 지옥 때문이다.
 
-<img src='./imgs/2666924E5603E1C135.png' width=300 height=300>
+<img src='./imgs/2666924E5603E1C135.png' width=500 height=300>
 
 비동기함수를 단순히 콜백함수로만 처리를 해주면 비동기 함수를 점점 타고 들어가면서 콜백 지옥에 빠지게 됩니다. 이에 따라 가독성도 떨어집니다.
 promise를 사용하여 코드를 잘 짜면 이런 콜백 헬을 해결할 수 있습니다.
@@ -83,7 +83,7 @@ asyncThing1()
 	.then(function() { console.log("All done!");});
   ```
 위 로직의 실행순서를 그림으로 표현하면 아래와 같습니다.
-<img src="./imgs/로직.png" width=300 height=300> 
-  
 
+<img src="./imgs/로직.png" width=400 height=300> 
+  
 대충 정리한 내용인데 자세한 내용은 [링크](https://programmingsummaries.tistory.com/325)를 참조하자.
